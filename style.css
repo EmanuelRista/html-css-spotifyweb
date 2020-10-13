@@ -40,10 +40,7 @@
   vertical-align: middle;
 }
 .button-1 {
+  height: 60%;
+  vertical-align: middle;
   background-color: transparent;
-  border: 2px solid white;
-  color: white;
-  border-radius: 30%;
-  padding: 0 30px;
-  padding-top: -10px;
 }
