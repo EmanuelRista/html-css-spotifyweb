@@ -6,7 +6,7 @@
 }
 .sidebar {
   height: 80vh;
-  width: 15vw;
+  width: 250px;
   background-color: #000000;
   color: white;
   padding: 1rem;
@@ -14,7 +14,7 @@
 }
 .side-footer {
   height: 10vh;
-  width: 15vw;
+  width: 250px;
   background-color: #000000;
   color: white;
   padding: 1rem;
@@ -28,11 +28,12 @@ hr {
 .main-window {
   position: absolute;
   top: 10vh;
-  left: 15vw;
-  width: 85vw;
+  left: 250px;
   height: 80vh;
+  width: calc(100% - 250px);
   background-color: #151922;
   color: white;
+  float: right;
 }
 .music-player {
   width: 100vw;
@@ -44,8 +45,8 @@ hr {
 }
 .top-bar {
   height: 10vh;
-  width: 85vw;
-  left: 15vw;
+  width: calc(100% - 250px);
+  left: 250px;
   background-color: #000000;
   color: white;
   line-height: 10vh;
