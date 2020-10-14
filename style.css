@@ -160,4 +160,28 @@ main-menu li .button-main-menu{
   flex-wrap: wrap;
   justify-content:space-between;
   text-align: center;
+  margin: 2vh;
+}
+.brano {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  text-align: center;
+  width: 250px;
+}
+.imgbrano {
+  height: 6vh;
+  width: 6vh;
+}
+.name-song-active {
+  font-size: 12px;
+}
+.icons-song-active {
+  opacity: 0.6;
+}
+.icons-song-active:hover {
+  opacity: 1;
+  transform: scale(1.5);
+  cursor: pointer;
 }
