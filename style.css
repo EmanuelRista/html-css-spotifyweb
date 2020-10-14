@@ -130,23 +130,27 @@ a.footer-link {
   border-radius: 50%;
   opacity: 0.6;
 }
-.middle-menu {
-  display: inline-block;
-  margin: 1rem 0;
+.main-menu{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  text-align: center;
 }
-.main-menu {
+.main-menu li{
+  display: inline-block;
+  margin: 10px;
+  padding-top: 10px;
+}
+main-menu li .button-main-menu{
   text-decoration: none;
+}
+.main-navbar-item {
   color: white;
   opacity: 0.6;
 }
-.main-menu:hover {
-  text-decoration: none;
-  color: white;
+.main-navbar-item:hover {
   opacity: 1;
   padding-bottom: 0.5rem;
   border-bottom: 4px solid chartreuse;
-}
-li.main-menu-items {
-  float: left;
-  padding: 0 1rem;
 }
