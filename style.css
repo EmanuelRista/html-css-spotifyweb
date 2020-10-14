@@ -177,6 +177,9 @@ main-menu li .button-main-menu{
 .name-song-active {
   font-size: 12px;
 }
+.track {
+  opacity: 0.6;
+}
 .icons-song-active {
   opacity: 0.6;
   padding: 0 1rem;
