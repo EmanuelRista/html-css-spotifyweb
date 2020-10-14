@@ -179,9 +179,30 @@ main-menu li .button-main-menu{
 }
 .icons-song-active {
   opacity: 0.6;
+  padding: 0 1rem;
 }
 .icons-song-active:hover {
   opacity: 1;
   transform: scale(1.5);
   cursor: pointer;
+}
+.volume-bar {
+  width: 400px;
+  height: 3px;
+  opacity: 0.6;
+}
+.volume-bar:hover {
+  width: 400px;
+  height: 3px;
+  opacity: 1;
+}
+.volume-bar-2 {
+  width: 100px;
+  height: 3px;
+  opacity: 0.6;
+}
+.volume-bar-2:hover {
+  width: 100px;
+  height: 3px;
+  opacity: 1;
 }
