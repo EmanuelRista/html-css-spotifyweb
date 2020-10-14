@@ -34,6 +34,7 @@ hr {
   background-color: #151922;
   color: white;
   float: right;
+  text-align: center;
 }
 .music-player {
   width: 100vw;
@@ -128,4 +129,24 @@ a.footer-link {
   padding: 3px 6px;
   border-radius: 50%;
   opacity: 0.6;
+}
+.middle-menu {
+  display: inline-block;
+  margin: 1rem 0;
+}
+.main-menu {
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
+}
+.main-menu:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid chartreuse;
+}
+li.main-menu-items {
+  float: left;
+  padding: 0 1rem;
 }
