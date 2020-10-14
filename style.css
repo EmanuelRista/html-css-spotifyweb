@@ -154,3 +154,10 @@ main-menu li .button-main-menu{
   padding-bottom: 0.5rem;
   border-bottom: 4px solid chartreuse;
 }
+.slidecontainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  text-align: center;
+}
